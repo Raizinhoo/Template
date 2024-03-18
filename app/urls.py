@@ -13,7 +13,7 @@ from core.views import CategoriaViewSet, EditoraViewSet, UserViewSet
 
 router = DefaultRouter()
 router.register(r"categorias", CategoriaViewSet, basename="categorias")
-router.register(r"editora", EditoraViewSet, basename="editoras")
+router.register(r"editoras", EditoraViewSet, basename="editoras")
 router.register(r"users", UserViewSet, basename="users")
 
 
